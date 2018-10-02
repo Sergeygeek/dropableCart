@@ -9,7 +9,10 @@ class Product {
     }
     _render(container){
         let $wrapper = $('<div/>', {
-            class: 'product'
+            class: 'product',
+            'data-id': this.id,
+            'data-price': this.price,
+            'data-name': this.title
         });
 
         let $img = $('<img/>', {

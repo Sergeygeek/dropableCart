@@ -9,4 +9,16 @@ $(document).ready(() => {
    });
    // $('#cart').on('click', '.del-btn', () => {});
     let feed = new Feedback('feedback.json');
+    $('.product').draggable({
+        revert: true
+    });
+    $('#cart').droppable({
+        drop: function(event, ui){
+            console.log(ui, event);
+            console.log($(ui.draggable));
+            mycart._addProduct($(ui.draggable[0]))
+        }
+        
+    });
+
 });
