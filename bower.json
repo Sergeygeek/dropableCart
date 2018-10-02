@@ -1,0 +1,17 @@
+{
+  "name": "6_lesson",
+  "homepage": "https://github.com/Sergeygeek/dropableCart",
+  "authors": [
+    "Sergeygeek <sukhorukov1986@yandex.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
